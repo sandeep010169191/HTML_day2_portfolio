@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <style type="text/css">
+            #main-header {
+                text-align: center;
+                background-color: yellow;
+                color: black;
+                padding: 10px;    
+            }
+            #main-footer{
+                text-align: center;
+                background-color: yellow;
+                color: black;
+                font-size:10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header id="main-header">
+            <h1>Portfolio of Sandeep</h1>
+        </header>
+        <aside>
+            <img src="photo.jpg" width="260" height="350">
+        </aside>
+        <section>
+            <article class="post">
+                <h3>For more information click on the links</h3>
+                <small>Posted by Sandeep</small>
+                <nav> 
+                    <ol>
+                        <li><a href="information.html" target="_blank">Personal Information</a></li>
+                        <li><a href="projects.html" target="_blank">Projects</a></li>
+                        <li><a href="miscellaneous.html" target="_blank">Miscellaneous</a></li>
+                    </ol>
+                </nav>
+            </article>
+        </section>
+        <p>Contact Me</p>
+        <form action="" method="POST">
+            <div>
+                <label>Name</label>
+                <input type="text" name="name" placeholder="Enter your name here">
+            </div>
+            <br> 
+            <div>
+                <label>Email Address</label>
+                <input type="text" name="email" placeholder="Enter your email id here">
+            </div>
+            <br>
+            <div>
+                <label>Query</label>
+                <textarea name="message" placeholder="Message"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Region</label>
+                <select>
+                    <option value="male">Asia/Pacific</option>
+                    <option value="female">America</option>
+                    <option value="other">Australia</option>
+                    <option value="other">South Africa</option>
+                    <option value="other">Others</option>
+                </select>
+            </div>
+            <div>
+                <label>Date of Contact</label>
+                <input type="date" name="birthday"></input>
+            </div>
+            <br>
+            <div>
+                <label>Contact Number</label>
+                <input type="number" name="phone" placeholder="Enter your phone number here">
+            </div>
+            <br>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+        <footer id="main-footer">
+            <p>Copyright &copy; 2023, Blog Website</p>
+            <hr>
+            <p>
+                <a href="https://github.com/sandeep010169191" target="_blank"><img src="github.jpg" alt="Github" width="25" height="25"></a>
+                <a href="https://www.linkedin.com/in/myselfsandyy/" target="_blank"><img src="linkedin.jpg" alt="LinkedIn" width="25" height="25"></a>
+            </p>
+        </footer>
+    </body>
